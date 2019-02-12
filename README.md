@@ -10,10 +10,10 @@ One way to fix it is to disable your nvidia driver(nouveau) and use your interna
 3) Now you should be able to start qubes installer.
 
 ### non supported wireless card
-If you get stuck at the last stage of installtion, while configuring the net-vm. Most likely your wireless card is not supported, you need to replace it with another one that is supported by the kernel.
+If you get stuck at the last stage of installtion, while configuring the sys-net. Most likely your wireless card is not supported, you need to replace it with another one that is supported by the kernel.
 
 
 ## After Installation:
 ### sleeping mode
 My laptop won't wake up from sleep mode:<br/>
-update your kernel to the latest version, using:<br/> `sudo qubes-dom0-update kernel-latest`
+try update your kernel to the latest version, using:<br/> `sudo qubes-dom0-update kernel-latest`
